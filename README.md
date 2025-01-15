@@ -112,6 +112,12 @@ I welcome contributions! Please follow these steps:
 - [Tailwind CSS](https://tailwindcss.com)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
+## 🤝 Connect with Me
+
+I'm always open to networking and learning new things. Feel free to connect with me on LinkedIn!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-musabbir/)
+
 ---
 
 <div align="center">
