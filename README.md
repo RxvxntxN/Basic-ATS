@@ -41,19 +41,6 @@ Follow these steps to get the project up and running locally:
 4. **Open in browser:**
    Navigate to `http://localhost:3000` to view the landing page.
 
-## Project Structure
-The project follows a standard Next.js structure:
-
-```
-.
-├── public
-│   └── assets       # Static assets (images, icons, etc.)
-├── src
-│   ├── components   # Reusable components (e.g., Header, Footer, etc.)
-│   ├── pages        # Next.js pages
-│   ├── styles       # Global and component-specific styles
-│   └── utils        # Utility functions (if applicable)
-└── README.md        # Project documentation
 ```
 
 ## Customization
