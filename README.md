@@ -1,8 +1,5 @@
-![WebView](https://github.com/user-attachments/assets/4cc9ce73-f8a1-4762-b409-b08625d0cb21)# Basic ATS Landing Page Design 🚀
-
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A modern, responsive landing page for an Applicant Tracking System (ATS), crafted with Next.js and styled with Tailwind CSS. This project demonstrates best practices in modern web development while maintaining a clean, professional aesthetic.
 
@@ -11,31 +8,14 @@ A modern, responsive landing page for an Applicant Tracking System (ATS), crafte
 ![WebView](https://github.com/user-attachments/assets/24a6f30a-6801-4afa-82de-0fb4e844f5f6)
 
 ## Mobile View
+![screen-20250115-161119](https://github.com/user-attachments/assets/01e8bce0-922a-4668-a34d-433ab04573f1)
 
-
-
-
-## ✨ Features
 
 🎨 **Responsive Design**
 - Fluid layouts that adapt seamlessly across all devices
 - Mobile-first approach ensuring consistent user experience
 - Optimized viewing on tablets, desktops, and mobile devices
 
-🚀 **Modern Tech Stack**
-- Built on Next.js for optimal performance
-- Server-side rendering capabilities
-- Fast page loads and smooth navigation
-
-💅 **Sleek Styling**
-- Tailwind CSS for utility-first styling
-- Custom design system
-- Consistent color scheme and typography
-
-🔧 **Interactive Elements**
-- Smooth animations and transitions
-- User-friendly navigation
-- Responsive interactive components
 
 ## 🛠️ Prerequisites
 
