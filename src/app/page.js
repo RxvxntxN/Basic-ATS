@@ -1,10 +1,10 @@
-import Homepage from '@/app/hompage';
-import SectionOne from '@/app/sectionOne';
+import Homepage from '@/app/Hompage';
+import SectionOne from '@/app/SectionOne';
 import SectionTwo from '@/app/SectionTwo';
-import SectionThree from '@/app/sectionthree';
-import SectionFour from "@/app/sectionfour";
-import Sectioncard from "@/app/sectioncard";
-import FooterSection from "@/app/footersection";
+import SectionThree from '@/app/Sectionthree';
+import SectionFour from "@/app/Sectionfour";
+import Sectioncard from "@/app/Sectioncard";
+import FooterSection from "@/app/Footersection";
 
 
 export default function Home() {

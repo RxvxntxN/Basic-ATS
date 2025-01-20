@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import FooterImage from "@/app/images/footericon.png";
+import React from "react";
 import Link from "next/link";
-import { GitHub } from "lucide-react";
 import { Button } from "@nextui-org/react";
 
 const Footer = () => {
@@ -79,7 +79,7 @@ const Footer = () => {
                     <ul className="space-y-2">
                       <li>
                         <a
-                          href="#"
+                          href="/features"
                           className="text-xs font-semibold hover:text-white transition-colors duration-200"
                         >
                           Features
@@ -87,7 +87,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/pricing"
                           className="text-xs font-semibold hover:text-white font transition-colors duration-200"
                         >
                           Pricing
@@ -152,7 +152,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/changelog"
                           className="text-xs font-semibold hover:text-white transition-colors duration-200"
                         >
                           Changelog
@@ -160,7 +160,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/blog"
                           className="text-xs font-semibold hover:text-white transition-colors duration-200"
                         >
                           Blog
