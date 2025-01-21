@@ -10,9 +10,9 @@ const BlogContents = () => {
   return (
     <>
       <section className="relative bg-white p-4">
-        <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="bg-gray-100 p-6 rounded-t-xl flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="max-w-lg">
             <div className="rounded-xl h-full">
               <section className="flex flex-col gap-4">
                 <Image src={Tick} alt="tick" className="rounded-lg" />
@@ -21,10 +21,10 @@ const BlogContents = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-64 max-w-sm">
-            <div className="p-6 rounded-lgh-full">
+          <div className="w-full">
+            <div className="p-6 h-full">
               <section className="flex flex-col gap-4">
-                <h3 className="font-extrabold text-4xl relative">
+                <h3 className="font-extrabold text-2xl relative">
                   Behavioral Interview Scoring Matrix: A Template & Simple Guide
                 </h3>
                 <p>
@@ -41,9 +41,9 @@ const BlogContents = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="bg-gray-100 p-6 flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="max-w-lg">
             <div className="rounded-xl h-full">
               <section className="flex flex-col gap-4">
                 <Image src={Turnover} alt="turnover" className="rounded-lg" />
@@ -52,8 +52,8 @@ const BlogContents = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-64 max-w-sm">
-            <div className="p-6 rounded-lgh-full">
+          <div className="w-full">
+            <div className="p-6 rounded-lg h-full">
               <section className="flex flex-col gap-4">
                 <h3 className="font-extrabold text-4xl relative">
                   Behavioral Interview Scoring Matrix: A Template & Simple Guide
@@ -72,9 +72,9 @@ const BlogContents = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="bg-gray-100 p-6 flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="max-w-lg">
             <div className="rounded-xl h-full">
               <section className="flex flex-col gap-4">
                 <Image src={Bias} alt="bias" className="rounded-lg" />
@@ -83,8 +83,8 @@ const BlogContents = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-64 max-w-sm">
-            <div className="p-6 rounded-lgh-full">
+          <div className="w-full">
+            <div className="p-6 rounded-lg h-full">
               <section className="flex flex-col gap-4">
                 <h3 className="font-extrabold text-4xl relative">
                   Behavioral Interview Scoring Matrix: A Template & Simple Guide
@@ -103,9 +103,9 @@ const BlogContents = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="bg-gray-100 p-6 flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="max-w-lg">
             <div className="rounded-xl h-full">
               <section className="flex flex-col gap-4">
                 <Image src={Player} alt="player" className="rounded-lg" />
@@ -114,7 +114,7 @@ const BlogContents = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="w-full">
             <div className="p-6 rounded-lgh-full">
               <section className="flex flex-col gap-4">
                 <h3 className="font-extrabold text-4xl relative">
@@ -134,9 +134,9 @@ const BlogContents = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-center gap-8">
+        <div className="bg-gray-100 p-6 rounded-b-xl flex flex-col md:flex-row justify-center items-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="max-w-lg">
             <div className="rounded-xl h-full">
               <section className="flex flex-col gap-4">
                 <Image src={Boarding} alt="boarding" className="rounded-lg" />
@@ -145,7 +145,7 @@ const BlogContents = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-64 max-w-sm">
+          <div className="w-full">
             <div className="p-6 rounded-lgh-full">
               <section className="flex flex-col gap-4">
                 <h3 className="font-extrabold text-4xl relative">

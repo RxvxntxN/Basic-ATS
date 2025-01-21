@@ -18,7 +18,7 @@ const Homepage = () => {
         <NavigationBar />
         <div className="mt-24 items-center relative max-w-4xl mx-auto text-center">
           <p className="text-gray-600 mb-4">Introducing Sport Cars</p>
-          <h1 className="text-black text-6xl font-bold mb-6">
+          <h1 className="text-black text-6xl font-bold mb-6 animate-fade animate-once animate-duration-[3000ms]">
             Hiring made simple
           </h1>
           <p className="text-base text-gray-700 mb-8 max-w-2xl mx-auto">

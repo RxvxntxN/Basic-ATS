@@ -4,6 +4,7 @@ import BlogContents from "@/blogStuffs/BlogContents";
 import SectionFour from "@/app/Sectionfour";
 import FooterSection from "@/app/Footersection";
 
+
 const BlogPage = () => {
   return (
     <>
