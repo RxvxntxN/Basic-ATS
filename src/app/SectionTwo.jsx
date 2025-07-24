@@ -27,7 +27,7 @@ const SectionTwo = () => {
                 <div className="relative w-full h-full md:h-36">
                   <Image
                     alt="Card 1"
-                    src="https://assets.whichcar.com.au/image/upload/s--z0acjuQ7--/c_fill,f_auto,q_auto:good/t_p_16x9/v1/archive/whichcar/2018/06/06/-1/2018-Ford-Mustang-acceleration-testing.jpg"
+                    src="https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg"
                     layout="fill"
                     objectFit="cover"
                     className="rounded-l-xl md:rounded-xl"
@@ -60,7 +60,7 @@ const SectionTwo = () => {
                 <div className="relative w-full h-full md:h-36">
                   <Image
                     alt="Card 2"
-                    src="https://e1.pxfuel.com/desktop-wallpaper/275/920/desktop-wallpaper-car-smoke-car-tire-smoke.jpg"
+                    src="https://images.pexels.com/photos/70912/pexels-photo-70912.jpeg"
                     layout="fill"
                     objectFit="cover"
                     className="rounded-l-xl md:rounded-xl"
