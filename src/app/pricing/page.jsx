@@ -4,6 +4,7 @@ import GetStarted from "@/featuresStuffs/GetStarted";
 import PricingTag from "@/pricingStuffs/PriceTags";
 import ContributeTag from "@/pricingStuffs/ContributeTag";
 import FooterSection from "@/app/Footersection";
+import AOSInitializer from "@/app/components/AOSInitializer";
 
 const PricingPage = () => {
   return (
@@ -12,7 +13,9 @@ const PricingPage = () => {
         <div className="relative min-h-min bg-gradient-to-br from-pink-100 via-pink-100 to-orange-100 p-6 rounded-xl">
           <NavigationBar />
           <div className="mt-24 items-center max-w-4xl mx-auto text-center">
-            <h1 className="text-black text-6xl font-bold mb-6">Pricing</h1>
+            <h1 className="text-black text-6xl font-bold mb-6 animate-fade animate-once animate-duration-[3000ms]">
+              Pricing
+            </h1>
             <p className="text-base text-gray-700 mb-8 max-w-2xl mx-auto">
               Maybe the simplest thing about Sport Car. One subscription for
               unlimited jobs, candidates, and users.
@@ -21,6 +24,7 @@ const PricingPage = () => {
         </div>
       </div>
       <section>
+        <AOSInitializer />
         <PricingTag />
         <ContributeTag />
         <GetStarted />

@@ -10,11 +10,14 @@ import { Share } from "lucide-react";
 
 const FeatureBoard = () => {
   return (
-    <section className="relative bg-white p-4">
+    <section className="relative bg-white p-4 overflow-hidden">
       <div className="bg-[#F4F4F4] p-6 rounded-t-xl flex flex-col md:flex-row justify-center items-stretch gap-8">
         {/* Card 1 */}
         <div className="">
-          <div className="p-6 bg-white rounded-xl shadow-md flex flex-col justify-between">
+          <div
+            className="p-6 bg-white rounded-xl shadow-md flex flex-col justify-between"
+            data-aos="fade-right"
+          >
             <section className="flex flex-col gap-4">
               <Image
                 src={Board}
@@ -30,7 +33,7 @@ const FeatureBoard = () => {
         {/* Card 2 */}
         <div className="w-full md:w-96 max-w-sm">
           <div className="p-2 h-full flex flex-col justify-between">
-            <section className="flex flex-col gap-4">
+            <section className="flex flex-col gap-4" data-aos="fade-left">
               <h2 className="font-extrabold text-3xl relative h-16">
                 Instant job board
               </h2>
@@ -53,10 +56,16 @@ const FeatureBoard = () => {
         </div>
       </div>
 
-      <section className="relative bg-[#F4F4F4] p-6 rounded-b-xl">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-6 place-items-center">
-            <div className="flex flex-col items-start w-full max-w-sm gap-4 mt-16">
+      <section className="relative bg-[#F4F4F4] p-6 rounded-b-xl ">
+        <div className="container mx-auto overflow-x-hidden">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-6 place-items-center"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+          >
+            <div className="flex flex-col items-start w-full max-w-sm gap-4 mt-16 ">
               <Smartphone />
               <h3 className="font-bold text-lg">Mobile ready</h3>
               <p className="text-start">

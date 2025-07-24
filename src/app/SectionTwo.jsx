@@ -6,8 +6,15 @@ const SectionTwo = () => {
   return (
     <div className="min-h-screen bg-white p-4">
       <div className="bg-gradient-to-br from-pink-100 via-pink-100 to-orange-100 rounded-xl min-h-screen relative">
-        <div className="py-24 px-8">
-          <h1 className="text-4xl font-extrabold flex mt-3">
+        <div
+          className="py-24 px-8"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="50"
+          data-aos-offset="0"
+          data-aos-duration="1000"
+        >
+          <h1 className="text-4xl font-extrabold flex mt-3 animate-in fade-in zoom-in">
             Everything you need to
             <br className="hidden sm:inline" /> grow your team
           </h1>

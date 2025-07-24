@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --animation-duration: 40s;
+  }
+  
+  @media (max-width: 640px) {
+    :root {
+      --animation-duration: 20s;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    :root {
+      --animation-duration: 15s;
+    }
+  }

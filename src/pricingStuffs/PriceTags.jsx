@@ -2,10 +2,10 @@ import React from "react";
 
 const PriceTags = () => {
   return (
-    <section className="relative bg-white p-4">
+    <section className="relative bg-white p-4 overflow-hidden">
       <div className="bg-gray-100 p-6 rounded-xl flex flex-col md:flex-row justify-center items-stretch gap-8">
         {/* Card 1 */}
-        <div className="w-full md:w-96 max-w-sm">
+        <div className="w-full md:w-96 max-w-sm" data-aos="fade-right">
           <div className="p-6 bg-white rounded-xl shadow-md h-full flex flex-col justify-between">
             <section className="flex flex-col gap-4">
               <h3 className="font-extrabold text-4xl h-16">Free</h3>
@@ -27,7 +27,7 @@ const PriceTags = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full md:w-96 max-w-sm">
+        <div className="w-full md:w-96 max-w-sm" data-aos="fade-left">
           <div className="p-6 bg-white rounded-lg shadow-md h-full flex flex-col justify-between">
             <section className="flex flex-col gap-4">
               <h3 className="font-extrabold text-4xl relative h-16">

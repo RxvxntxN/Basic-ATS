@@ -13,9 +13,9 @@ const NavigationBar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <section className="w-[95%] mx-auto bg-white mt-4 shadow-md rounded-lg">
+    <section className="w-[95%] mx-auto bg-white mt-4 shadow-md rounded-xl">
       <div className="container mx-auto px-8">
-        <header className="flex items-center justify-between py-3">
+        <header className="flex items-center justify-between py-2">
           <nav className="flex w-full items-center justify-between">
             {/* Logo */}
             <div className="flex items-center object-contain">
@@ -28,7 +28,9 @@ const NavigationBar = () => {
                   height={40}
                 />
               </Link>
-              <span className="font-extrabold pl-2">Sport Cars</span>
+              <a href="/" className="font-extrabold pl-2">
+                Sport Cars
+              </a>
             </div>
 
             {/* Desktop Navigation */}
@@ -71,7 +73,7 @@ const NavigationBar = () => {
               </Link>
               <Link
                 href="/signup"
-                className="bg-black font-bold text-white px-4 py-2 rounded-lg hover:bg-gray-900"
+                className="bg-black font-bold text-white px-4 py-2 rounded-xl hover:bg-gray-900"
               >
                 Sign Up
               </Link>
@@ -93,7 +95,7 @@ const NavigationBar = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="lg:hidden flex justify-center">
-            <div className="flex flex-col space-y-4 pb-4">
+            <div className="flex flex-col space-y-4 pb-4 items-center">
               <Link
                 href="/features"
                 className="text-gray-600 font-bold hover:text-gray-900"

@@ -10,7 +10,7 @@ const Sectioncard = () => {
 
   return (
     //{/* absolute rounded-lg z-10 right-32 -top-12 bg-black min-h-min p-4 w-[35%] */}
-    <div className="max-md:min-h-min max-md:bg-white max-md:p-4">
+    <div className="z-10 max-md:min-h-min max-md:bg-white max-md:p-4 ">
       <div
         className="bg-black rounded-xl min-h-min p-4 
                       maxmd:relative
